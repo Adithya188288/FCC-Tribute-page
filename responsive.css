@@ -1,0 +1,27 @@
+.big-card {
+  margin: 2rem 4rem;
+}
+
+#main-content #title {
+  font-size: 3rem;
+}
+
+#main-content #small-desc,
+#main-content #img-div #img-caption {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 550px) {
+  .big-card {
+    margin: 1rem 2rem;
+  }
+
+  #main-content #title {
+    font-size: 2rem;
+  }
+
+  #main-content #small-desc,
+  #main-content #img-div #img-caption {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FCC-Tribute Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width:768px)"
+      href="responsive.css"
+    />
+  </head>
+
+  <!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains
+     all other elements. -->
+  <body id="main">
+    <div class="big-card container">
+      <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) 
+        that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+      <section id="main-content" class="text-center">
+        <h1 id="title">Swamy Vivekananda</h1>
+        <p id="small-desc"><em>Indian Monk</em></p>
+
+        <!-- User Story #3: I should see a div element with a corresponding id="img-div" -->
+        <div id="img-div">
+          <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image" -->
+          <!-- User Story #8: The img element should responsively resize, relative to the width of its parent element,
+             without exceeding its original size.-->
+          <!-- User Story #9: The img element should be centered within its parent element.  -->
+          <img
+            src="sv2.png"
+            alt="A Photo of Swamy Vivekananda"
+            id="image"
+            class="text-center"
+          />
+          <!-- User Story #5: Within the img-div element, I should see an element with a corresponding
+             id="img-caption" that contains textual content describing the image shown in img-div -->
+          <p id="img-caption">A Photo of <em>Swamy Vivekananda</em></p>
+          <!-- User Story #6: I should see an element with a corresponding id="tribute-info",
+             which contains textual content describing the subject of the tribute page. -->
+          <p id="tribute-info">
+            Swami Vivekananda, born Narendranath Datta, was an Indian Hindu
+            monk, a chief disciple of the 19th-century Indian mystic
+            Ramakrishna. He was a key figure in the introduction of the Indian
+            philosophies of Vedanta and Yoga to the Western world and is
+            credited with raising interfaith awareness, bringing Hinduism to the
+            status of a major world religion during the late 19th century. He
+            was a major force in the revival of Hinduism in India, and
+            contributed to the concept of nationalism in colonial India.
+            Vivekananda founded the Ramakrishna Math and the Ramakrishna
+            Mission. He is perhaps best known for his speech which began with
+            the words - "Sisters and brothers of America ...," in which he
+            introduced Hinduism at the Parliament of the World's Religions in
+            Chicago in 1893.
+          </p>
+          <!-- User Story #7: I should see an a element with a corresponding id="tribute-link",
+             which links to an outside site that contains additional information about the subject of the tribute page -->
+          <p>
+            Read More about Swamy Vivekananda from<a
+              href="https://en.wikipedia.org/wiki/Swami_Vivekananda"
+              id="tribute-link"
+              target="_blank"
+            >
+              Wikipedia</a
+            >
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
