@@ -7,21 +7,31 @@
 }
 
 #main-content #small-desc,
-#main-content #img-div #img-caption {
+#main-content #img-div #img-caption,
+#main-content #img-div p {
   font-size: 1.1rem;
 }
 
 @media (max-width: 550px) {
   .big-card {
-    margin: 1rem 2rem;
+    margin: 0rem 0rem;
+    border-radius: 0;
   }
 
   #main-content #title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #main-content #small-desc,
   #main-content #img-div #img-caption {
     font-size: 1rem;
+  }
+
+  #main-content #img-div p {
+    font-size: 1rem;
+  }
+
+  #main-content #img-div p:nth-of-type(2) {
+    display: none;
   }
 }

@@ -10,7 +10,7 @@
 body {
   background: rgba(159, 214, 68, 1);
   font-family: "Roboto", sans-serif;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 p {
@@ -64,6 +64,7 @@ a {
 }
 
 #main-content #small-desc,
-#main-content #img-div #img-caption {
+#main-content #img-div #img-caption,
+#main-content #img-div p {
   font-size: 1.2rem;
 }
